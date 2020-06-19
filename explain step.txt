@@ -1,0 +1,61 @@
+Step - Step 
+
+1. Introduction SVM -> Explain SVM Method
+
+2. Necessary Import -> Pandas, numpy, & matplotlib.pyplot
+
+3. About the Diabetes data
+
+4. Load Data From CSV File  -> from jurnal(image) to exel and to csv
+The characteristics of the cell samples from each patient are contained in fields Clump to Mit. The values are graded from 1 to 10, with 1 being the closest to benign.
+The Class field contains the diagnosis, as confirmed by separate medical procedures, as to whether the samples are benign (value = 2) or malignant (value = 4).
+
+5. Distribution of the classes -> Positif dan Negatif
+
+6. Selection of unwanted columns -> Detection unwanted data of columns
+
+7. Remove unwanted columns -> trace useless data of columns
+
+8. Divide the data as Train/Test dataset -> train data and test data
+
+9. Modeling (SVM with Scikit-learn) -> Karnel (linier, polynomial, radial basis function (RBF), Sigmoid) to see predict
+
+10. Evaluation (Results) -> clasification of report test and predict 
+
+
+# 1. Pengantar SVM
+SVM digunakan untuk membangun dan melatih model menggunakan catatan sel manusia, dan mengklasifikasikan sel untuk apakah sampel jinak (keadaan ringan) atau ganas (keadaan jahat).
+
+SVM bekerja dengan memetakan data ke ruang fitur dimensi tinggi sehingga titik data dapat dikategorikan, bahkan ketika data tidak dapat dipisahkan secara linear (ini dilakukan oleh fungsi kernel dari classifier SVM). Pemisah antara kategori ditemukan, maka data ditransformasikan sedemikian rupa sehingga pemisah dapat digambarkan sebagai hyperplane.
+
+### 2. Impor yang diperlukan
+----------------------------------------
+### 3. Tentang data Kanker
+
+### 4. Muat Data Dari File CSV
+Karakteristik sampel sel dari setiap pasien terkandung dalam bidang Clump to Mit. Nilai-nilai tersebut dinilai dari 1 hingga 10, dengan 1 yang paling dekat dengan jinak.
+
+Bidang Kelas berisi diagnosis, yang dikonfirmasi oleh prosedur medis terpisah, apakah sampelnya jinak (nilai = 2) atau ganas (nilai = 4).
+
+----------------------------------------
+### 5. Distribusi kelas
+----------------------------------------
+### 6. Pemilihan kolom yang tidak diinginkan
+----------------------------------------
+### 7. Hapus kolom yang tidak diinginkan
+----------------------------------------
+### 8. Membagi data sebagai data Train / Test
+----------------------------------------
+### 9. Pemodelan (SVM dengan Scikit-learn)
+----------------------------------------
+### 10. Evaluasi (Hasil)
+
+Ketebalan rumpun
+UnifSize -> keseragaman ukuran sel
+UnifShape -> keseragaman bentuk sel
+MargAdh -> Adheison Marginal
+SingEpiSize -> Ukuran sel epitel tunggal
+BareNuc -> Bare Nuclei
+BlandChrom -> Bland chromatin
+NormNucl -> nukleolus normal
+Mit -> Mitoses
